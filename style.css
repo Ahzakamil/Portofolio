@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    background:url(image/sx.png);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    min-height: calc(100vh );
+    display: flex;
+    flex-direction: column;
+   
+}
+.container{
+  max-width:1200px;
+  flex: 1;
+  width: 100%;
+   margin: 0 auto;
+    display: flex;
+  justify-content: center;
+   align-items: center;
+  
+}
+.content{    
+color: black;
+padding: 0 3rem;
+
+   
+}
+
+.dark{
+   padding: 9px 15px;
+   font-family: 'Poppins', sans-serif;
+   background-color: rgb(43, 61, 226);
+   color: white;
+   border: none;
+   border-radius: 8px;
+}
+
+body.ahza .background,
+body.ahza .background-about,
+body.ahza .background-project,
+body.ahza .riwayat-background,
+body.ahza .background-blog
+ {
+  background-color: #121212;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+body.ahza .background {
+  background-image: none; /* biar gak numpuk sama gambar sx.png */
+   color :0.3s ease-in-out;
+ 
+}
+
+body.ahza p,
+body.ahza a,
+body.ahza .h1-content,
+body.ahza .h1-project,
+body.ahza .h1-riwayat
+ {
+  color: #eaeaea;
+}
+body.ahza .content-blog,.h1-blog,.p-blog{
+   background-color: white;
+}
+.background,
+.background-about,
+.background-project,
+.riwayat-background,
+.background-blog,
+footer {
+    transition: background-color 0.3s ease-in-out,
+                color 0.3s ease-in-out;
+}
+
+h1{
+      font-size: clamp(1.3rem, 2vw, 3.5rem);
+     font-family: 'Urbanist', sans-serif;
+}
+p{
+        font-size: clamp(0.7rem, 1vw, 2.5rem);
+     font-family: 'Poppins', sans-serif;
+}
+.navigasi ul{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   /* padding: clamp(1.2rem,1vw,3rem); */
+   padding:13px;
+   margin: 16px 0;
+   
+}
+.navigasi{
+   backdrop-filter: blur(20px);
+   position: fixed;
+    width: 100%;
+   
+}
+li{
+   list-style: none;
+}
+a{
+   text-decoration: none;
+   color: black;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-size: clamp(0.4rem, 1vw, 2.5rem);
+    cursor: pointer;
+}
+.btn-header{
+   margin: 8px;
+padding: 9px 28px;
+border-radius: 8px;
+background-color: rgb(43, 61, 226);
+border: none;
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+.img-header{
+   object-fit: cover;
+   max-width: 600px;
+   width: 100%;
+   height: 500px;
+}
+.background-about{
+   min-height: 100vh;
+   display: flex;
+   
+}
+.container-about{
+   max-width: 1200px;
+   gap: 20px;
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: auto;
+   
+  
+
+}
+.h1-content{
+    font-family: 'Urbanist', sans-serif;
+    margin: 10px 0;
+}
+.gambar-container{
+   display: flex;
+   justify-content: end;
+   gap: 20px;
+   grid-column: 1 / -1;
+}
+.gambar{
+   object-fit: cover; 
+   width: 100%;
+   max-width: 28px;
+   height: auto;
+}
+.background-project{
+   min-height: 100vh;
+   display: flex;
+}
+.container-project{
+     display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+   max-width: 1200px;
+   width: 100%;
+   justify-content: center;
+   margin:  auto;
+   text-align: center;
+   gap: 30px;
+}
+.gambar-project{
+  max-width: 600px;
+   width: 100%;
+   object-fit: cover;
+   height: 400px;
+}
+.tulisan-project{
+   grid-column: 1 /-1;
+}
+
+.p-project{
+   text-align: left;
+}
+a::after{
+   position: absolute;
+   background-color: rgb(43, 61, 226);
+   width: 0;
+   left: 0;
+   bottom: -3px;
+   height: clamp(1px,1.7px,3px);
+content: "";
+transition: 0.3s ease;
+}
+a:hover::after{
+   width: 100%;
+
+}
+a:hover{
+   color: rgb(43, 61, 226);
+   transition: 0.2s ease;
+}
+
+.riwayat-background{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   /* background-color: rgba(7, 7, 99, 0.827); */
+}
+.container-riwayat{
+   display: flex;
+   max-width: 1200px;
+   width: 100%;
+  margin: 0 auto;
+  padding: 95px 0;
+   justify-content: center;
+}
+.gambar-riwayat{
+   object-fit: cover;
+   width: 100%;
+   max-width:250px ;
+}
+
+.container-riwayatgambar{
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+}
+.background-blog{
+   min-height: 110vh;
+   display: flex;
+   flex-direction: column;
+}
+.container-blog{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+   max-width: 1350px;
+   margin: auto;
+   width: 100%;
+   padding: 0 15x;
+   border-radius: 8px;
+}
+.content-blog{
+   text-align: left;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.06);
+padding: 10px;
+
+}
+.image-blog{
+   object-fit: cover;
+   height: 250px;
+   max-width:500px ;
+   width: 100%
+   
+}
+.h1-blog{
+   font-size: clamp(1rem,2vw,1.7vw);
+   width: 100%;
+}
+.p-blog{
+    font-size: clamp(0.7rem,1vw,1vw);
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 8px;
+   flex: 1;
+     width: 100%;
+}
+.tulisan-blog{
+   grid-column: 1/-1;
+   
+   margin: auto;
+   text-align: center;
+}
+.button-blog{
+   padding:8px 27px ;
+  background-color: rgb(43, 61, 226);
+   font-family:    'Poppins', sans-serif;
+   color: white;
+   border-radius:8px ;
+   border: none;
+   margin: auto;
+}
+footer{
+   background-color: rgb(43, 98, 226);
+   min-height: 30vh;
+   display: flex;
+   flex-direction: column;
+   
+}
+.container-footer{
+   display: flex;
+   max-width: 1200px;
+   justify-content: center;
+   gap: 20px;
+   padding: 50px;
+}
+.h1-footer{
+     font-size: clamp(1rem,2vw,1.7vw);
+     font-family: 'Urbanist', sans-serif;
+}
+.p-footer{
+      font-size: clamp(0.7rem,1vw,3vw);
+    text-align: left;
+    padding-top: 10px;
+    
+   
+     width: 100%;
+}
+.li-footer{
+   font-size: clamp(0.7rem,1vw,3vw);
+    text-align: left;
+    padding-top: 10px;
+     font-family:    'Poppins', sans-serif;
+}
+.divider {
+    border: none;
+    border-top: 1px solid #334155;
+    margin: 50px 0;
+}
+.container-bawah{
+ display: grid;
+ grid-template-columns: repeat(1,1fr);
+ 
+}
+.bawah{
+  display: flex;
+   justify-content: center;
+   font-size: clamp(1rem,1.4vw,2rem);
+ 
+
+
+}
+.wrap-gambar{
+   display: flex;
+   justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+.gambar-bawah{
+   max-width: 60px;
+   height: auto;
+   width: 100%;
+  
+}
+h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 80;
+   font-size: clamp(0.8rem,1vw,1.2rem);
+}
+@media  (max-width:779px){
+   .background{
+      background: url(image/fa.png);
+      background-size: 1200px;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+   .dark{
+      padding: 7px 14px;
+      font-size: 8px;
+   }
+   
+   
+   .container{
+      flex-direction: column;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+        padding: 80px 20px 30px;
+   }
+   .content {
+        width: 100%;
+        padding: 0;
+    }
+  .img-header {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+   .container-about{
+      grid-template-columns: repeat(1,1fr);
+      margin:  10px;
+      justify-content: center;
+        
+      
+   }
+      
+   .container-project{
+      grid-template-columns: repeat(1,1fr);
+      padding: 10px;
+   }
+   .gambar-project{
+      max-width:400px ;
+      width: 100%;
+      height: 270px;
+      
+   }
+   .container-riwayatgambar{
+   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 14px;
+}
+.gambar-riwayat{
+   max-width: 300px;
+   width: 100%;
+   height: 200px;
+}
+.container-blog{
+   grid-template-columns: repeat(1,1fr);
+   padding: 80px 20px;
+}
+.container-bawah{
+   
+   padding:  20px;
+}
+.divider{
+   border-top: 2px solid black;
+   padding:  20px;
+}
+}
+/* .navigasi.ul{
+   padding: 5px 0;
+   gap: 2px;
+} */

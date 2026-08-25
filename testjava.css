@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.button-container{
+    padding: 5rem;
+    gap: 10px;
+    
+
+}
+#btn-darkmode,
+#btn-changeheading,
+#btn-tambahcard,
+#btn-sembunyi {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    background-color: greenyellow;   
+}
+.darkmode{
+    background-color: rgba(0, 0, 0, 0.968);
+}
+
+
+.h1{
+    color: white;
+    transition: 0.2s ease;
+}
+.p{
+    color: white;
+    transition: 0.3s ease;
+}
