@@ -1,210 +1,392 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portofolio</title>
-    <link rel="icon" href="image/ahza.png">
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-         <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-        <script src="script.js" defer></script>
-  </head>
-  <body>
-    <main>
-  <section class="background">
-      <nav class="navigasi">
-       
-          <ul>
-            <li> <a href=".">beranda</a> </li>
-            <li> <a href=".">tentang saya</a> </li>
-            <li> <a href=".">portofolio</a> </li>
-            <li> <a href=".">pendidikan</a> </li>
-            <li> <a href=".">pengalaman</a> </li>
-            <li> <button class="dark">darkmode</button> </li>
-          </ul>
-        </nav>
-     
-    
-    
-      <div class="container">
-        <div class="content">
-       
-            <p class="p-header">halo semua 🙌 saya,</p>
-               <h1 class="h1-header">Ahza kamil waldan abbasy </h1>
-                 <p class="p-header">student of Idn boarding school solo</p>
-                 <p class="p-header">portofolio ini menampilkan proyek dan kontribusi saya sebagai pengambang di bidang teknologi </p>
-                  <button class="btn-header">Hubungi saya</button>
-            </div>
-             <div class="content">
-                  <div >
-                  <img src="image/ChatGPT Image Aug 24, 2026, 11_13_26 AM.png" alt="" class="img-header">
-                  </div>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahza - Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="image/1.png">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar-background">
+    <div class="navbar-container">
+      <div class="navbar-logo">
+        <h1 class="logo">@Ahhzza_</h1>
+      </div>
+      <nav class="navbar-menu">
+        <a href="#hero" class="navbar-link">Home</a>
+        <a href="#about" class="navbar-link">About</a>
+        <a href="#services" class="navbar-link">Services</a>
+        <a href="#projects" class="navbar-link">Projects</a>
+        <a href="#contact" class="navbar-btn-outline">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero-background">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-greeting">Hi, I'm Ahza! 👋</div>
+        <h1 class="hero-title">Code enthusiast &mdash; Fullstack builder &mdash; Lifelong learner.</h1>
+        <a href="#contact" class="hero-btn-primary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="horizon-about-section">
+    <div class="horizon-about-container">
+
+      <div class="horizon-about-header">
+        <div class="horizon-about-tag-wrapper">
+          <span class="horizon-about-pill-tag">About Me</span>
+        </div>
+        <div class="horizon-about-lead-wrapper">
+          <p class="horizon-about-lead-text">
+            Hello, I'm <strong>Ahza Kamil Waldan Abbasy</strong>, <em>a fullstack developer</em><br>
+            with 5+ years of experience.
+          </p>
         </div>
       </div>
-    </header>
-    </section>
 
-  <section class="background-about">
-      <div class="container-about">
-        <div class="content-about">
-          <h1 class="h1-content">tentang saya</h1>
-          <p class="p-about">Halo, saya Ahza kamil waldan abbasy Seorang Full-Stack Developer muda lulusan SMK yang bersemangat menjembatani estetika front-end dan fungsionalitas back-end. Menggunakan teknologi seperti React dan Laravel, saya senang mengubah baris kode menjadi aplikasi web yang interaktif, cepat, dan mudah digunakan. Mari menjelajahi proyek-proyek terbaik saya di bawah ini!</p>
-        </div>
+      <div class="horizon-about-bento-grid">
 
-        <div class="content-about">
-           <h1 class="h1-content">komitmen saya</h1>
-          <p class="p-about">"Setiap proyek di bawah ini mencerminkan perjalanan saya dalam menguasai ekosistem Full-Stack. Mulai dari merancang arsitektur database yang efisien di Laravel, hingga menciptakan pengalaman pengguna (UX) yang mulus dengan React. Saya selalu fokus pada penulisan kode yang bersih (clean code) dan performa aplikasi yang optimal."</p>
-        </div>
-        
-         <div class="content-about">
-           <h1 class="h1-content">hasil project saya</h1>
-          <p class="p-about"> "Di bawah ini, Anda akan menemukan rangkaian proyek yang merepresentasikan keahlian saya. Mulai dari pembangunan arsitektur database dan RESTful API yang kokoh menggunakan Laravel, hingga implementasi antarmuka komponen yang dinamis dengan React. Setiap karya dirancang dengan fokus pada efisiensi kode, keamanan sistem, serta kenyamanan pengguna akhir."</p>
-        </div>
-
-         <div class="content-about">
-           <h1 class="h1-content">filosofi saya</h1>
-          <p class="p-about">"Setiap proyek yang saya bangun bukan sekadar baris kode, melainkan solusi digital untuk memecahkan masalah nyata. Di bawah ini, Anda dapat melihat bagaimana saya mengombinasikan keunggulan Laravel dalam mengolah data yang aman dengan fleksibilitas React untuk menciptakan visual yang adaptif di berbagai perangkat. Selamat menjelajahi hasil karya terbaik saya!"</p>
-        </div>
-        
-        
-      
-        <div class="gambar-container">
-      <img src="image/html-5.png" alt="" class="gambar">
-      <img src="image/js.png"    alt=""   class="gambar">
-      <img src="image/css-3.png" alt="" class="gambar">
-      <img src="image/github.png" alt="" class="gambar">
-      <img src="image/linkedin.png" alt="" class="gambar">
-         </div>
-      </div>
-    </section>
-    <section class="background-project">
-      <div class="container-project">
-  
-        <div class="tulisan-project">
-          <h1 class="h1-project">sertifikat</h1>
-           <p class="p-project1">berikut inilah sertfikat yang saya pernah saya dapatkan</p>
-        </div>
-        <div class="content-project">
-     <img src="image/omni 3.png" alt="" class="gambar-project">
-      <!-- <p class="p-project">Portal Klaim
-Lihat Disini
-Portal Klaim merupakan sebuah sistem untuk mempermudah nasabah atau unit kerja BRI dalam melihat progress klaim asuransi.</p> -->
-      </div>
-       
-      <div class="content-project">
-     <img src="image/omni.png" alt="" class="gambar-project">
-       <!-- <p class="p-project">saya juga mengikuti olimpiade informatika</p> -->
-      </div>
-      <div class="content-project">
-     <img src="image/2.png" alt="" class="gambar-project">
-       <!-- <p class="p-project">Lihat Disini
-
-Website Company Profile PT BRIngin Sejahtera Makmur.</p> -->
-      </div>
-     
-      <div class="content-project">
-     <img src="image/futsal.png" alt="" class="gambar-project">
-       <!-- <p class="p-project">"Selama aktif dalam olahraga futsal, saya mengasah kemampuan komunikasi interpersonal dan kerja sama tim di bawah tekanan tinggi. Sebagai bagian dari tim, saya belajar menyelaraskan strategi bersama, merespons perubahan dinamika lapangan dengan cepat</p> -->
-      </div>
-
-      <div class="content-project">
-     <img src="image/22.png" alt="" class="gambar-project">
-       <!-- <p class="p-project">"Selama aktif dalam olahraga futsal, saya mengasah kemampuan komunikasi interpersonal dan kerja sama tim di bawah tekanan tinggi. Sebagai bagian dari tim, saya belajar menyelaraskan strategi bersama, merespons perubahan dinamika lapangan dengan cepat</p> -->
-      </div>
-
-      <div class="content-project">
-     <img src="image/3.png" class="gambar-project">
-       <!-- <p class="p-project">"Selama aktif dalam olahraga futsal, saya mengasah kemampuan komunikasi interpersonal dan kerja sama tim di bawah tekanan tinggi. Sebagai bagian dari tim, saya belajar menyelaraskan strategi bersama, merespons perubahan dinamika lapangan dengan cepat</p> -->
-      </div>
-
-       </div>
-      
-      </div>
-    </section>
-
-    <section class="riwayat-background">
-      <div class="container-riwayat">
-        <div class="content-riwayat">
-          <h1 class="h1-riwayat">riwayat pendidikan & Bootcamp</h1>
-          <p class="p-riwayat">Pernah dan sedang belajar pada program dan universitas berikut</p>
-        </div>
+        <!-- Card 1: dark -->
+        <div class="horizon-about-card horizon-about-card-dark">
+          <div class="horizon-about-card-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <line x1="12" y1="4" x2="12" y2="20"></line>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <line x1="6" y1="4" x2="6" y2="20"></line>
+              <line x1="18" y1="4" x2="18" y2="20"></line>
+            </svg>
           </div>
-        <div class="container-riwayatgambar">
-        <img src="image/igs.png" alt="" class="gambar-riwayat">
-        <img src="image/kibs_white.png" alt="" class="gambar-riwayat">
-        <img src="image/idn.png" alt="" class="gambar-riwayat">
-        <img src="image/gdsc_ug.png" alt="" class="gambar-riwayat">
-        <img src="image/bangkit.png" alt="" class="gambar-riwayat">
+
+          <p class="horizon-about-card-title-text">
+           "Design is not just what it looks like 
+            <span class="horizon-about-text-muted"> and feels like.</span>
+           Design is how it works."
+
+            <span class="horizon-about-text-muted"><br>Steve Jobs </span>
+          </p>
+
+          <div class="horizon-about-toggle-row">
+            <label class="horizon-about-switch">
+              <input type="checkbox" checked disabled>
+              <span class="horizon-about-slider"></span>
+            </label>
+            <span class="horizon-about-toggle-label">Reminder Mode</span>
+          </div>
         </div>
+
+        <!-- Card 2: image -->
+        <div class="horizon-about-card horizon-about-card-image">
+          <div class="horizon-about-glass-badge">Teaching &amp; Mentoring Experience</div>
         </div>
-    </section>
-<section class="background-blog">
-  <div class="container-blog">
-     <div class="tulisan-blog">
-  <h1 class="h1-blogs">tulisan blog</h1>
-<p class="p-blogs">berikut ini adalah blog yang pernah saya tulis di goggle site</p>
-   </div>
-<div class="content-blog">
-      <img src="image/blog1.PNG" alt="" class="image-blog">
-      <h1 class="h1-blog">Manajemen Layanan pada perusahaan McDonalds</h1>
-      <p class="p-blog">Dalam penulisan artikel kali ini penulis akan membahas mengenai Layanan Sistem Informasi yang diterapkan pada perusahaan makanan cepat saji McDonald's. Sebelumnya penulis dan beberapa anggota kelompok telah melakukan analisis layanan sistem informasi pada sebuah restaurant McDonald's, dari hasil analisis tersebut dibagi menjadi 5 Tahap Siklus Manajemen Layanan TI, 5 siklus tersebut berupa Service Strategy, Service Design, Service Transition, Service Operation, dan Continual Service Improvement. Kelima siklus tersebut juga merupakan bagian dari Information Technology Infrastructure Library (ITIL) atau yang dimaksud sebuah konsep Teknologi Informasi</p>
-     <button class="button-blog">baca selengkapnya</button>
-    </div>
-      <div class="content-blog">
-      <img src="image/blog2.PNG" alt="" class="image-blog">
-      <h1 class="h1-blog">Analisa Pelayanan Publik Pemerintah</h1>
-       <p class="p-blog">Manajemen Layanan Sistem Informasi itu sendiri merupakan sebuah metode pengolahan sistem Teknologi Informasi (TI) yang terpusat pada konsumen terhadap bisnis perusahaan. Sedangkan Pelayanan Publik merupakan kegiatan pemenuhan kebutuhan pelayanan sesuai peraturan perundangan bagi setiap penduduk atas barang, jasa atau pelayanan administratif yang disediakan oleh publik atau pemerintah. Dalam hal ini Manajemen Layanan Informasi merupakan salah satu strategi perusahaan perbankan untuk meningkatkan pelayanannya terhadap konsumen, sementara sistem informasi yang digunakan menyangkut hal-hal seperti data dan informasi.</p>
-     <button class="button-blog">baca selengkapnya</button>
+
+        <!-- Card 3: stats -->
+        <div class="horizon-about-card horizon-about-card-light">
+          <div class="horizon-about-coach-header">
+            <h3 class="horizon-about-big-stat">100+</h3>
+            <h4 class="horizon-about-stat-title">Fullstack solutions</h4>
+            <p class="horizon-about-stat-sub">
+              Certified Full-Stack Developer ready to boost your web application from the first line of HTML to database integration and scalable production level.
+            </p>
+          </div>
+
+          <div class="horizon-about-dots-container">
+            <div class="horizon-about-dot-row">
+              <span class="horizon-about-dot-label">Frontend</span>
+              <div class="horizon-about-dot-group">
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+              </div>
+              <span class="horizon-about-dot-val">55</span>
+            </div>
+
+            <div class="horizon-about-dot-row">
+              <span class="horizon-about-dot-label">Backend</span>
+              <div class="horizon-about-dot-group">
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+              </div>
+              <span class="horizon-about-dot-val">40</span>
+            </div>
+
+            <div class="horizon-about-dot-row">
+              <span class="horizon-about-dot-label">Database</span>
+              <div class="horizon-about-dot-group">
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+                <span class="horizon-about-dot"></span><span class="horizon-about-dot"></span>
+              </div>
+              <span class="horizon-about-dot-val">35</span>
+            </div>
+          </div>
+        </div>
+
       </div>
-       <div class="content-blog">
-       <img src="image/blog3.PNG" alt="" class="image-blog">
-      <h1 class="h1-blog">Analisa salah satu Kerangka Kerja ITSM</h1>
-       <p class="p-blog">Pada penulisan blog kali ini saya akan menyampaikan informasi yang sudah saya kumpulkan dari beberapa referensi mengenai bagaimana penerapan kerangka kerja dari salah satu ITSM (Information Technologi Service Management) atau dalam bahasa Indonesia dikenal sebagai MLTI (Manajemen Layanan Teknologi Informasi). Salah satu kerangka kerja ITSM yang akan dibahas kali ini adalah mengenai ITIL (Information Technology Infrastructure Library), pembahasan penerapan kerangka kerja ITIL ini akan diimplementasikan pada perusahaan besar di Indonesia yaitu PT. Garuda Indonesia tbk, dan PT. Telekomunikasi Indonesia.</p>
-       <button class="button-blog">baca selengkapnya</button>
-    </div>
-  </div>
-</section>
-<footer>
-  <div class="container-footer">
-    <div class="content-footer">
-      <h1 class="h1-footer">Ahza kamil waldan abbasy</h1>
-      <h3 class="h1-footer">Hubungi Saya</h3>
-      <h2 >Ahzakamil1@gmail.com Batam</h2>
-    </div>
-    <div class="content-footer">
-      <h1 class="h1-footer">Kategori Tulisan</h1>
-      
-      <ul class="ul-footer">
-        <li class="li-footer">programing</li>
-        <li class="li-footer">teknologi </li>
-        <li class="li-footer">gaya hidup</li>
-       </ul>
-    </div>
 
-    <div class="content-footer">
-      <h1 class="h1-footer">Tautan</h1>
-      <ul class="ul-footer">
-        <li class="li-footer">beranda</li>
-        <li class="li-footer">tentang saya</li>
-        <li class="li-footer">portofolio</li>
-        <li class="li-footer">pendidikan</li>
-       </ul>
-    </div>
-  </div>
-  <div class="container-bawah">
-     <hr class="divider">
-     <h1 class="bawah">Dibuat oleh Ahza kamil waldan abbasy, menggunakan CSS.</h1>
-   <div class="wrap-gambar">
-     <img src="image/linkedin.png" alt="" class="gambar-bawah">
-     <img src="image/github.png" alt="" class="gambar-bawah">
-     <img src="image/css-3.png" alt="" class="gambar-bawah">
-     </div>
-    </div>
-</footer>
+      <!-- Numbers -->
+      <div class="horizon-about-bottom-section">
+        <h3 class="horizon-about-bottom-title">A few more facts about me in numbers</h3>
+        <div class="horizon-about-numbers-grid">
+          <div class="horizon-about-num-item">
+            <span class="horizon-about-num">80+</span>
+            <span class="horizon-about-num-label">Projects completed</span>
+          </div>
+          <div class="horizon-about-num-item">
+            <span class="horizon-about-num">75</span>
+            <span class="horizon-about-num-label">Trusted partnerships</span>
+          </div>
+          <div class="horizon-about-num-item">
+            <span class="horizon-about-num">6+</span>
+            <span class="horizon-about-num-label">Years experience</span>
+          </div>
+          <div class="horizon-about-num-item">
+            <span class="horizon-about-num">20+</span>
+            <span class="horizon-about-num-label">Industries served</span>
+          </div>
+        </div>
+      </div>
 
-</main>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services-background">
+    <div class="services-container">
+      <div class="services-header">
+        <span class="services-tag">SERVICES</span>
+        <h2 class="services-title">Solutions &amp; Capabilities</h2>
+        <p class="services-description">Providing end-to-end digital experience design with a focus on clarity, usability, and structure.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="services-card">
+          <span class="services-card-badge">UI/UX Design</span>
+          <h3 class="services-card-title">Interface &amp; Experience Design</h3>
+          <p class="services-card-text">User-centered interface design, wireframing, and interactive prototyping focused on usability and conversion.</p>
+        </article>
+
+        <article class="services-card">
+          <span class="services-card-badge">Design Systems</span>
+          <h3 class="services-card-title">Scalable UI Libraries</h3>
+          <p class="services-card-text">Comprehensive UI kits, design tokens, and component guidelines for brand consistency across products.</p>
+        </article>
+
+        <article class="services-card">
+          <span class="services-card-badge">Development</span>
+          <h3 class="services-card-title">Frontend Engineering</h3>
+          <p class="services-card-text">Clean, accessible, and responsive HTML/CSS implementation built for optimal speed and web performance.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACKS -->
+  <section class="background-container-content-stacks-section">
+    <div class="background-container-content-stacks-container">
+
+      <div class="background-container-content-stacks-header">
+        <span class="background-container-content-stacks-tag">04 / SUPERPOWER</span>
+        <h2 class="background-container-content-stacks-title">My Stacks.</h2>
+        <p class="background-container-content-stacks-desc">Not pretend to be busy, but these are the stacks I use to build my projects.</p>
+      </div>
+
+      <div class="background-container-content-stacks-grid">
+
+        <article class="background-container-content-stacks-card">
+          <div class="background-container-content-stacks-card-header">
+            <div class="background-container-content-stacks-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            <h3 class="background-container-content-stacks-item-title">GitHub</h3>
+          </div>
+          <p class="background-container-content-stacks-item-desc">My open-source projects and code repositories.</p>
+        </article>
+
+        <article class="background-container-content-stacks-card">
+          <div class="background-container-content-stacks-card-header">
+            <div class="background-container-content-stacks-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M22.5 12.5L12 21.75 1.5 12.5l2.25-2 8.25 7.25 8.25-7.25 2.25 2zM12 2.25L1.5 11.5l2.25 2 8.25-7.25 8.25 7.25 2.25-2L12 2.25z"/></svg>
+            </div>
+            <h3 class="background-container-content-stacks-item-title">Laravel </h3>
+          </div>
+          <p class="background-container-content-stacks-item-desc">Second most used web framework, learned in depth.</p>
+        </article>
+
+        <article class="background-container-content-stacks-card">
+          <div class="background-container-content-stacks-card-header">
+            <div class="background-container-content-stacks-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 4.8a7.2 7.2 0 110 14.4 7.2 7.2 0 010-14.4z"/></svg>
+            </div>
+            <h3 class="background-container-content-stacks-item-title">Next.js</h3>
+          </div>
+          <p class="background-container-content-stacks-item-desc">My favorite React framework for building web applications.</p>
+        </article>
+
+       
+       
+        <article class="background-container-content-stacks-card">
+          <div class="background-container-content-stacks-card-header">
+            <div class="background-container-content-stacks-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm.8 4.8c2.8 0 5.2 2.1 5.6 4.8h-2.1c-.4-1.6-1.8-2.7-3.5-2.7-2 0-3.6 1.6-3.6 3.6s1.6 3.6 3.6 3.6c1.7 0 3.1-1.1 3.5-2.7h2.1c-.4 2.7-2.8 4.8-5.6 4.8-3.1 0-5.6-2.5-5.6-5.7 0-3.1 2.5-5.7 5.6-5.7z"/></svg>
+            </div>
+            <h3 class="background-container-content-stacks-item-title">React</h3>
+          </div>
+          <p class="background-container-content-stacks-item-desc">My first JavaScript library for building user interfaces.</p>
+        </article>
+
+        <article class="background-container-content-stacks-card">
+          <div class="background-container-content-stacks-card-header">
+            <div class="background-container-content-stacks-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 13.5l-8-4.5 8-4.5 8 4.5-8 4.5zm0 2.25l7.5-4.22v3.97L12 19.72l-7.5-4.22v-3.97l7.5 4.22z"/></svg>
+            </div>
+            <h3 class="background-container-content-stacks-item-title">Tailwind CSS</h3>
+          </div>
+          <p class="background-container-content-stacks-item-desc">My preferred utility-first CSS framework.</p>
+        </article>
+
+       
+        <article class="background-container-content-stacks-card">
+          <div class="background-container-content-stacks-card-header">
+            <div class="background-container-content-stacks-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 2h8a4 4 0 014 4v12a4 4 0 01-4 4H8a4 4 0 01-4-4V6a4 4 0 014-4zm4 3a2.5 2.5 0 100 5 2.5 2.5 0 000-5zm0 7a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"/></svg>
+            </div>
+            <h3 class="background-container-content-stacks-item-title">Figma</h3>
+          </div>
+          <p class="background-container-content-stacks-item-desc">My all-in-one design tool.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="background-container-content-section">
+    <div class="background-container-content-container">
+
+      <div class="background-container-content-header">
+        <div class="background-container-content-tag-wrapper">
+          <span class="background-container-content-tag">Project</span>
+        </div>
+        <h2 class="background-container-content-title">
+          We develop high-performance<br>software digital solutions
+        </h2>
+      </div>
+
+      <div class="background-container-content-grid">
+
+        <!-- Card 1: dark -->
+        <article class="background-container-content-card background-container-content-card-dark">
+          <div class="background-container-content-card-inner">
+            <div class="background-container-content-card-top">
+              <span class="background-container-content-card-number">01.</span>
+              <div class="background-container-content-card-line"></div>
+              <h3 class="background-container-content-card-heading">What we do</h3>
+              <p class="background-container-content-card-desc">
+                We deliver robust full-stack development, cloud architecture, and intuitive UI/UX design.
+              </p>
+            </div>
+            <div class="background-container-content-card-bottom">
+              <a href="#" class="background-container-content-card-link">Our Solutions</a>
+            </div>
+          </div>
+          <button class="background-container-content-card-btn" aria-label="View Solutions">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </button>
+        </article>
+
+        <!-- Card 2: lime -->
+        <article class="background-container-content-card background-container-content-card-lime">
+          <div class="background-container-content-card-inner">
+            <div class="background-container-content-card-top">
+              <span class="background-container-content-card-number">02.</span>
+              <div class="background-container-content-card-line background-container-content-line-dark"></div>
+              <h3 class="background-container-content-card-heading background-container-content-text-dark">Our impact</h3>
+              <p class="background-container-content-card-desc background-container-content-desc-dark">
+                We partner with startups and enterprises to build scalable digital products that drive growth.
+              </p>
+            </div>
+            <div class="background-container-content-card-bottom">
+              <a href="#" class="background-container-content-card-link background-container-content-link-dark">See Projects</a>
+            </div>
+          </div>
+          <div class="background-container-content-card-image-wrap">
+            <img src="image/Futuristic Layered Server Module.png" alt="Architecture" class="background-container-content-card-img">
+          </div>
+          <button class="background-container-content-card-btn background-container-content-btn-dark" aria-label="See Projects">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </button>
+        </article>
+
+        <!-- Card 3: image overlay -->
+        <article class="background-container-content-card background-container-content-card-image-overlay">
+          <div class="background-container-content-card-bg-overlay"></div>
+          <div class="background-container-content-card-inner">
+            <div class="background-container-content-card-top">
+              <span class="background-container-content-card-number">03.</span>
+              <div class="background-container-content-card-line"></div>
+              <h3 class="background-container-content-card-heading">Core values</h3>
+              <p class="background-container-content-card-desc">
+                To empower businesses with cutting-edge code, clean architecture, and seamless digital experiences.
+              </p>
+            </div>
+            <div class="background-container-content-card-bottom">
+              <a href="#" class="background-container-content-card-link">Discover More</a>
+            </div>
+          </div>
+          <button class="background-container-content-card-btn" aria-label="Discover More">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER / CONTACT -->
+  <footer id="contact" class="footer-background">
+    <div class="footer-container">
+      <div class="footer-card">
+        <div class="footer-cta">
+          <span class="footer-badge">GET IN TOUCH</span>
+          <h2 class="footer-title">Let&rsquo;s build something exceptional together.</h2>
+          <p class="footer-description">Ahzakamil1@gmail.com / 082388012910</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2026 Portfolio. All rights reserved.</p>
+        <ul class="footer-social-links">
+          <li><a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.figma.com/files/team/1652160754138737770/recents-and-sharing" target="_blank" rel="noopener">Figma</a></li>
+          <li><a href="https://github.com/Ahzakamil" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
